@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="Nombre">Santiago Marcenaro</h1>
+    <img src="yo.png" alt="">
+    <p id="presentacion">Soy estudiante en JaP de Plan Ceibal y actualmente trabajo como facturador para una empresa estadounidense. Soy una persona social, proactiva y organizada.</p>
+    <hr>
+    
+    <nav class="navPerfil">
+        <ul>
+      <li><a href="#">Experiencia profesional</a></li>
+      <li><a href="#">Habilidades y conocimientos</a></li>
+      <li><a href="#">Educación</a></li>
+      <li><a href="#">Perfiles sociales</a></li>
+      <li><a href="#">Contactar</a></li>
+    </ul>
+    </nav>
+    
+    <h2 class="subtitulos">Experiencia profesional</h2>
+    <table class="tabla">
+        <tr>
+            <th>Empresa/Organización</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde - hasta</th>
+        </tr>
+        <tr>
+            <td>Ingenious Americas</td>
+            <td>Agente de Facturación Médica</td>
+            <td>Montevideo </td>
+            <td>Mayo 2022 - Actualidad </td>
+        </tr>
+        
+    </table>
+    
+    <hr>
+    
+    <h2 class="subtitulos">Habilidades y conocimientos</h2>
+    
+        <p><strong>Desarrollo web</strong>: HTML5, CSS3: en Curso </p>
+        <p><strong>Herramientas Office</strong>:  Excel, PowerPoint, Word</p>
+        <p><strong>Facturación</strong>: Epic</p>
+
+    <hr>
+    
+    <h2 class="subtitulos">Educación</h2>
+    
+    <table class="tabla">
+    
+        <tr>
+            <th>Título</th>
+            <th>Entidad</th>
+            <th>Promoción</th>
+        </tr>
+        <tr>
+            <td>Desarrollo web</td>
+            <td>Plan Ceibal</td>
+            <td>2023 - cursando</td>
+        </tr>
+        <tr>
+            <td>Curso: Paquete Office</td>
+            <td>BIOS</td>
+            <td>2021</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 class="subtitulos">Perfiles sociales</h2>
+        <p>También puedes encontrarme en:</p>
+        
+    <nav class="navPerfil">
+        <ul>
+            <li><a href="#">SantiagoMarcenaro</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Linkedin</a></li>
+        </ul>
+    </nav>
+    <hr>
+    
+    <h2 class="subtitulos">Contactar</h2>
+    <form>
+    <p>Para: <input type="text" name="Nombre" required/></p>
+  
+    <p>Temática
+      <select name="tema" id="tema">
+    <option value="predeterminado" selected>--Elige un tema--</option>
+          <option value="consulta">Consulta</option>
+          <option value="propuesta">Propuesta</option>
+          <option value="reporte">Reporte</option>
+          <option value="otro">Otro</option>
+      </select>
+    </p>
+  <p>Asunto: <input type="text" name="asunto" required/></p>
+  Cuerpo:<p><textarea name="message" id="message" cols="20" rows="10"></textarea></p> 
+</form>
+<input type="submit" value="Enviar"/>   
+  
+</body>
+</html>
